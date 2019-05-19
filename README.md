@@ -75,6 +75,10 @@ e) `agex2,experiencex4,interview1x4,interview2x6`
 
 f) `array_map` applies provided callback function on its input array parameters which in this case are the keys of array $d and values of array $d respectively. The callback function is removing '-','_',',' characters from keys of array d and concatenate them with character `x` and array $d values. Implode concatenate items of resulting array with ',' character as string. Array $d is not modified in this process.
 
+3. Write a function in Go which returns the top two most frequent numbers from a list, in order of frequency first
+
+For this question I've used priority queue implemented with heap, leveraging built-in heap package, the performance is O(logn).
+
 4. Describe the main tenets of a microservice.
 
 
