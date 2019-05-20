@@ -3,7 +3,7 @@ package main
 import (
 	"container/heap"
 	"fmt"
-	"github.com/labiuse/koala/3/priorityqueue"
+	"github.com/labiuse/koala/priorityqueue"
 )
 
 func main() {
